@@ -1,0 +1,18 @@
+server:
+  port: 20000
+spring:
+  application:
+    name: leaf
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/leaf?useSSL=false&autoReconnect=true&characterEncoding=utf8
+    username: root
+    password: 12345678
+    type: com.zaxxer.hikari.HikariDataSource          #指定为HikariDataSource
+
+
+
+zookeeper:
+  address: 127.0.0.1:2181
+
+snowflake:
+  twepoch: 1288834974657
